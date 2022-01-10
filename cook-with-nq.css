@@ -1,0 +1,221 @@
+body{
+}
+.home-dive{
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)); */
+  height: 100vh;
+  background-image: linear-gradient(#000, #000);
+}
+.cake{
+position: inherit;
+margin-top: 80px;
+margin-left: 40%;
+  height: 60vh;
+  width: 60%;
+  opacity: 1.5;
+}
+.logo{
+  border-radius: 100px;
+  height: 70px;
+  width: 70px;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.navbar{
+  padding-top: 0;
+}
+nav{
+  padding: 4%;
+  font-size: 18px ;
+}
+#navbarTogglerDemo01{
+  padding-left: 50vh;
+  font-weight: normal;
+  align-items: center;
+}
+.navbar-brand{
+  font-size: 25px ;
+  font-weight: 950;
+}
+.nav-item{
+  right: 0;
+  top: 0;
+  display: inline-block;
+  color: #000;
+  margin: 8%;
+}
+.nav-item li{
+color: #fff;
+text-decoration: none;
+}
+.nav-item:hover{
+  background-color: #000000;
+  color:#fff;
+  border-radius: 20%;
+}
+
+.welcome{
+position: absolute;
+top: 170px;
+left: 7px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+font-weight: bolder;
+font-size: 75px;
+margin-left:10%;
+font-family: 'Caveat Brush', cursive;
+animation-name: example;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-timing-function: ease;
+}
+@keyframes example {
+from{left: 100%;}
+to{left: 7px;}
+}
+
+/* About? */
+.art{
+  background-color: #dddddd;
+  height: 95vh;
+  width: 100%;
+  overflow: hidden;
+}
+.piping{
+  height: 35vh;
+  width: 40vh;
+  border-radius: 20%;
+  float: left;
+  position: absolute;
+  left: -20%;
+  }
+  .art h1{
+    /* font-weight: 900;
+    font-size: 90px; */
+    font-family: 'Patua One', cursive;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .text h1 p{
+    line-height: 2;
+  }
+  .text{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    left: 30%;
+    font-size: 20px;
+    width: 60%;
+    background-color: #000;
+    color: #fff;
+    padding: 2% 3% 2% 17%;
+    box-shadow: 5px 5px 15px #888888;
+  }
+  /* testimonials */
+ .main{
+  background-image: url(menu.jpg);
+  border-top: 1px;
+  border-style:hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+ }
+.main h1{
+  font-size: 80px;
+  color: #fff;
+  overflow: hidden;
+}
+.single-works{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  box-shadow: 5px 5px 15px #000000;
+}
+.single-works img{
+  margin-left: 5px;
+  width: 100%;
+  height: 30vh;
+}
+.single-works:hover img{
+  opacity: 0.7;
+}
+.single-works:hover{
+  transform: translateY(-8px);
+}
+.single-works:hover {
+  opacity: 1;
+  background-blend-mode: lighten;
+}
+
+.carousel-inner{
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
+}
+.carousel-item{
+  padding: 0% 8% 0 8%;
+}
+
+.carousel-control-next{
+  right:0;
+}
+.carousel-control-next, .carousel-control-prev{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+}
+.carousel-control-prev{
+  left: 0;
+}
+.but{
+  font-size: 20px;
+  font-weight: bold;
+}
+.but:hover{
+  opacity: 0.7;
+}
+/* Follow us */
+.following{
+height: 90vh;
+width: 100%;
+background-color: #ddd;
+padding-top: 60px;
+
+}
+.following h1{
+  text-align: center;
+  padding-top:120px;
+  font-size: 70px;
+  font-family: 'Caveat Brush', cursive;
+
+}
+.log{
+  padding: 5% 15%;
+  text-align: center;
+}
+.log img{
+  height: 5%;
+  width: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.log img:hover{
+
+}
